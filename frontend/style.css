@@ -1,0 +1,70 @@
+body {
+    background: #1a1a1a;
+    font-family: 'Press Start 2P', cursive;
+    color: #00ffea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.chat-window {
+    width: 400px;
+    height: 600px;
+    background: #111;
+    border: 5px solid #00ffea;
+    box-shadow: 0 0 20px #00ffee;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 8px;
+    border-left: 4px solid #00ffee;
+}
+
+.user {
+    text-align: right;
+    color: #ffea00;
+}
+
+.bot {
+    text-align: left;
+    color: #00ffee;
+}
+
+.input-row {
+    display: flex;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    background: #000;
+    color: #00ffee;
+    border: 2px solid #00ffee;
+    font-family: 'Press Start 2P';
+}
+
+button {
+    padding: 8px 15px;
+    background: #00ea9a;
+    border: none;
+    color: #000;
+    font-family: 'Press Start 2P';
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00ffea;
+}
